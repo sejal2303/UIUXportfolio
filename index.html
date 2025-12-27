@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UI/UX • Portfolio</title>
+  <meta name="theme-color" content="#0b1220" />
+  <script src="https://kit.fontawesome.com/afda3a646f.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><span>Port</span>folio</a>
+    <nav class="nav">
+      <a class="nav-link" data-active="home" href="index.html">Home</a>
+      <a class="nav-link" data-active="about" href="about.html">About</a>
+      <a class="nav-link" data-active="skills" href="skills.html">Skills</a>
+      <a class="nav-link" data-active="experience" href="experience.html">Experience</a>
+      <a class="nav-link" data-active="projects" href="projects.html">Projects</a>
+      <a class="nav-link" data-active="contact" href="contact.html">Contact</a>
+      <span class="active-bar" aria-hidden="true"></span>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<main>
+
+<section class="hero container">
+  <div class="hero-left">
+    <p class="hello">Hello,</p>
+    <h1 class="hero-title">I am <span class="name-grad">Sejal Sudrik</span><br><span class="role">UI/UX Designer & Developer</span></h1>
+    <p class="hero-sub">I design intuitive user experiences and build visually engaging, high-performance interfaces that balance creativity, usability, and clean frontend code.</p>
+    <div class="cta-row">
+      <a class="btn grad" href="projects.html">View My Work</a>
+      <a class="btn outline" href="contact.html">Get In Touch</a>
+    </div>
+    <div class="stats">
+      <div><span class="num">2+</span><span>Years Experience</span></div>
+      <div><span class="num">5+</span><span>Projects Completed</span></div>
+      <!-- <div><span class="num">15+</span><span>Happy Clients</span></div> -->
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="photo-wrap"><img src="assets/img/Sejal_beige.jpeg" alt="Profile Photo"></div>
+  </div>
+  <div class="tunnel layer1"></div><div class="tunnel layer2"></div>
+</section>
+
+<section class="skills-preview container">
+  <h2 class="section-title">My Skills and Development</h2>
+  <p class="section-sub">Core competencies that drive data-driven solutions</p>
+  <div class="cards">
+    <a class="skill-card" href="skills.html#tech"><div class="icon icon--purple"><i class="fa-solid fa-play" style="color: #92f2d5;"></i></div><h3>Fast</h3><p>Quick processing & automated solutions for rapid insights.</p></a>
+    <a class="skill-card" href="skills.html#tech"><div class="icon icon--blue"><i class="fa-regular fa-square" style="color: #dd7bf8;"></i></div><h3>Responsive</h3><p>Dashboards that work seamlessly across devices.</p></a>
+    <a class="skill-card" href="skills.html#tech"><div class="icon icon--teal"><i class="fa-regular fa-lightbulb" style="color: #ea79f7;"></i></div><h3>Intuitive</h3><p>Clear visuals that make complex data accessible.</p></a>
+    <a class="skill-card" href="skills.html#tech"><div class="icon icon--pink"><i class="fa-solid fa-magnifying-glass-chart" style="color: #5ef9ca;"></i></div><h3>Dynamic</h3><p>Real‑time analytics and adaptive dashboards.</p></a>
+  </div>
+  <div class="center"><a class="btn outline purple-b" href="skills.html#tech">Explore All Skills</a></div>
+</section>
+
+<section class="projects-preview container">
+  <h2 class="section-title">My Recent Projects</h2>
+  <p class="section-sub">Showcasing data‑driven solutions and analytical insights</p>
+  <div class="project-grid">
+    <a class="project-card" href="projects.html"><div class="p-thumb"><img src="assets/img/Landing-page-main.webp"></div><div class="p-body"><h3>UI/UX</h3><p>Designing and building intuitive UI/UX with a strong focus on usability, performance, and scalability.</p><div class="tags"><span class="tag violet">Adobe Suite</span><span class="tag indigo">CorelDraw</span><span class="tag green">Figma</span></div></div></a>
+    <a class="project-card" href="projects.html"><div class="p-thumb alt1"><img src="assets/img/nft-logo.jpg"></div><div class="p-body"><h3>NFT Artwork</h3><p>Designing unique NFT art pieces that blend creativity, concept, and futuristic visual styles.</p><div class="tags"><span class="tag violet">Adobe Illustrator</span><span class="tag sky">Canva</span><span class="tag green">Sketch</span></div></div></a>
+    <!-- <a class="project-card" href="projects.html"><div class="p-thumb alt2"><img src="assets/img/img-12.jpg"></div><div class="p-body"><h3>Retail Analytics – Amazon</h3><p>Automated reporting and risk assessment.</p><div class="tags"><span class="tag slate">Excel</span><span class="tag blue">R</span><span class="tag green">Tableau</span></div></div></a> -->
+  </div>
+  <div class="center"><a class="btn grad" href="projects.html">View All Projects</a></div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container foot">
+    <p>© <span id="year"></span> UI/UX Designer & Frontend Developer Portfolio</p>
+    <div class="icons"></div>
+    <!-- <p class="builder">Website Builder</p> -->
+  </div>
+</footer>
+</body>
+</html>

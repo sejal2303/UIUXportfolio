@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects • Portfolio</title>
+  <meta name="theme-color" content="#0b1220" />
+  <script src="https://kit.fontawesome.com/afda3a646f.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Portfolio</a>
+    <nav class="nav">
+      <a class="nav-link" data-active="home" href="index.html">Home</a>
+      <a class="nav-link" data-active="about" href="about.html">About</a>
+      <a class="nav-link" data-active="skills" href="skills.html">Skills</a>
+      <a class="nav-link" data-active="experience" href="experience.html">Experience</a>
+      <a class="nav-link" data-active="projects" href="projects.html">Projects</a>
+      <a class="nav-link" data-active="contact" href="contact.html">Contact</a>
+      <span class="active-bar" aria-hidden="true"></span>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <!-- Hero + filters -->
+  <section class="container projects-hero">
+    <h1 class="section-title large">My <span class="name-grad">Projects</span></h1>
+    <p class="section-sub">Explore my portfolio of UI/UX Designing projects that have driven business value.</p>
+
+    <div id="projFilters" class="filter-chips">
+      <button class="chip-pill active" data-cat="all">All</button>
+      <button class="chip-pill" data-cat="bi">Social Media Campaigns</button>
+      <button class="chip-pill" data-cat="ml">NFT Crypto Art</button>
+      <button class="chip-pill" data-cat="fin">Logo & Brand Design</button>
+      <button class="chip-pill" data-cat="ops">UI/UX Designs - Landing Page</button>
+      <!-- <button class="chip-pill" data-cat="health">Healthcare Analytics</button> -->
+      <!-- <button class="chip-pill" data-cat="digital">Digital Analytics</button> -->
+    </div>
+  </section>
+
+  <!-- Cards grid (6 cards) -->
+  <section class="container">
+    <div id="projectsGrid" class="project-grid">
+
+      <!-- 1 -->
+       <article class="project-card" data-id="supply" data-cat="ops"
+        data-modal-images="
+          assets/img/UIUX/l-1.jpeg,
+          assets/img/UIUX/l-2.jpeg,
+          assets/img/UIUX/l-3.jpeg,
+          assets/img/UIUX/l-4.jpeg,
+          assets/img/UIUX/web.png,
+          assets/img/UIUX/l-12.png">
+
+        <div class="p-thumb">
+          <img src="assets/img/Landing-page-main.webp" alt="LandingPage">
+        </div>
+        <div class="p-body">
+          <h3>Landing Page - UI/UX</h3>
+          <p>High-impact landing page prototype designed in Figma with focus on clarity, conversion, and visual storytelling.</p>
+          <div class="tags">
+            <span class="tag violet">Figma</span><span class="tag indigo">Canva</span><span class="tag green">Adobe Illustrator</span>
+          </div>
+        </div>
+      </article>
+      
+
+      <!-- 2 -->
+      <article class="project-card" data-id="home_rent" data-cat="ml"
+        data-modal-images="
+          assets/img/Blockatena_graphicDesign/nft-dragon.png,
+          assets/img/Blockatena_graphicDesign/nft-badge.png"> 
+        <div class="p-thumb">
+          <img src="assets/img/nft-logo-2.png" alt="NFT">
+        </div>
+        <div class="p-body">
+          <h3>NFT Art Collection</h3>
+          <p>Limited edition NFT collection featuring unique digital artwork with interactive elements.</p>
+          <div class="tags">
+            <span class="tag violet">Adobe Illustrator</span><span class="tag sky">Canva</span><span class="tag green">Procreate</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="project-card" data-id="retail" data-cat="fin"
+        data-modal-img="assets/img/Blockatena_graphicDesign/logo.png">
+        <div class="p-thumb">
+          <img src="assets/img/branding-main.jpeg" alt="logo">
+        </div>
+        <div class="p-body">
+          <h3>Brand Identity Design</h3>
+          <p>Complete brand identity system for a tech startup including logo, color palette, and brand guidelines.</p>
+          <div class="tags">
+            <span class="tag green">Adobe Illustrator</span><span class="tag blue">Canva</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="project-card" data-id="sales" data-cat="bi"
+        data-modal-images="
+          assets/img/SocialMedia/flash-bazaar.png,
+          assets/img/SocialMedia/post-2.png,
+          assets/img/SocialMedia/post-1.jpg,
+          assets/img/SocialMedia/post-3.png">
+        <div class="p-thumb">
+          <img src="assets/img/SocialMedia/flask.png" alt="Social Media">
+        </div>
+        <div class="p-body">
+          <h3>Social Media Campaign</h3>
+          <p>Multi-platform social media campaign that increased engagement by 300% across all channels.</p>
+          <div class="tags">
+            <span class="tag violet">Figma</span><span class="tag indigo">Canva</span><span class="tag green">After Effects</span><span class="tag violet">Photoshop</span>
+          </div>
+        </div>
+      </article>
+      
+      
+      <!-- 5
+      <article class="project-card" data-id="health" data-cat="health"
+        data-modal-img="assets/img/modal/healthcare.jpg">
+        <div class="p-thumb">
+          <img src="assets/img/img-7.jpg" alt="Healthcare Analytics preview">
+        </div>
+        <div class="p-body">
+          <h3>Healthcare Analytics Platform</h3>
+          <p>Clinical KPIs and patient outcomes analytics.</p>
+          <div class="tags">
+            <span class="tag violet">Python</span><span class="tag slate">R</span><span class="tag green">Power BI</span>
+          </div>
+        </div>
+      </article>
+
+      6
+      <article class="project-card" data-id="ecom" data-cat="digital"
+        data-modal-img="assets/img/modal/ecommerce.jpg">
+        <div class="p-thumb">
+          <img src="assets/img/img-13.jpg" alt="E-commerce Analytics preview">
+        </div>
+        <div class="p-body">
+          <h3>E-commerce Analytics Suite</h3>
+          <p>Behavior tracking and conversion optimization.</p>
+          <div class="tags">
+            <span class="tag slate">GA</span><span class="tag violet">Python</span><span class="tag green">Tableau</span>
+          </div>
+        </div>
+      </article> -->
+
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="projectModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close aria-label="Close">×</button>
+
+      <div class="modal-content">
+        <figure class="modal-thumb">
+          <button class="gallery-btn prev">‹</button>
+          <img id="modalGalleryImg" alt="Project image">
+          <button class="gallery-btn next">›</button>
+        </figure>
+
+
+        <div class="modal-body">
+          <h3 id="modalTitle"></h3>
+          <p class="modal-desc"></p>
+
+          <div class="modal-meta">
+            <div><strong>Category:</strong> <span class="modal-cat"></span></div>
+            <div class="tags modal-tags"></div>
+          </div>
+
+          <div class="modal-cols">
+            <div>
+              <h4>Features</h4>
+              <ul class="modal-list modal-feats"></ul>
+            </div>
+            <div>
+              <h4>Results</h4>
+              <ul class="modal-list modal-outcomes"></ul>
+            </div>
+          </div>
+
+          <div class="modal-actions">
+            <a class="btn grad" target="_blank" rel="noopener" href="#" id="modalDemo">View Live Demo</a>
+            <a class="btn outline" target="_blank" rel="noopener" href="#" id="modalCode">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container foot">
+    <p>© <span id="year"></span> UI/UX Designer & Frontend Developer Portfolio</p>
+    <div class="icons"></div>
+    <!-- <p class="builder">Website Builder</p> -->
+  </div>
+</footer>
+
+</body>
+</html>
