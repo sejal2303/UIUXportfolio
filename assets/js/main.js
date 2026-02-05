@@ -104,16 +104,29 @@
   // small data map (text only) — images come from data-modal-img on each card
   const dataMap = {
     supply: {
-      title: 'Landing Page',
-      cat: 'UI/UX Design',
+      title: 'Web3 Learning Platform (Dashboard)',
+      cat: 'UI/UX Design · Multi-Page SaaS UI · Web & Mobile',
       desc: 'This project showcases a user-centered Web3 education platform designed with clear user flows, modular course structure, and progress tracking. Emphasis was placed on accessibility, clarity, and reducing cognitive load for beginners.',
       tags: ['Figma', 'Adobe Illustrator', 'Canva'],
-      features: ['Responsive UI designed for both web and mobile experiences', 'Clear user flows for onboarding, course navigation, and module access', 'Progress tracking with visual indicators to motivate continued learning'],
-      outcomes: ['Improved content clarity and reduced cognitive load for beginner users', 'Faster navigation and smoother learning experience across screens', 'Scalable design framework ready for future courses and features'],
-      demo: '#',
-      code: '#'
+      features: ['Responsive UI for desktop and mobile', 'Dark-themed, scalable design system', 'Reusable UI components for consistency'],
+      outcomes: ['Improved learning clarity and navigation', 'Faster design scalability and iteration', 'Better user engagement with courses'],
+      // demo: '#',
+      // code: '#'
     },
     
+
+    health: {
+      title: 'Mobile Ticket Booking App - UI',
+      cat: 'UI/UX Design · Mobile App · User Flow',
+      desc: 'A dark-themed movie booking app crafted for immersive exploration and effortless booking. Optimized interactions help users book tickets quickly, even in low-light environments.',
+      tags: ['Figma', 'Photoshop', 'Canva'],
+      features: ['Interactive seat selection flow', 'QR-based mobile ticket access', 'Dark UI for low-light use'],
+      outcomes: ['Faster booking flow with fewer user actions', 'Enhanced usability in low light', 'Faster ticket access'],
+      // demo: '#',
+      // code: '#'
+    },
+
+
     home_rent: {
       title: 'NFT Design',
       cat: ' · NFT Design · Digital Illustration · Character Design',
@@ -125,8 +138,8 @@
         'Scalable design optimized for badges, collectibles, and branding'
       ],
       outcomes: ['Created a distinctive visual identity with strong engagement appeal', 'Delivered versatile artwork adaptable across multiple digital platforms'],
-      demo: '#',
-      code: '#'
+      // demo: '#',
+      // code: '#'
     },
     retail: {
       title: 'Logo & Brand Identity Design',
@@ -135,8 +148,8 @@
       tags: ['Adobe Suite', 'Canva'],
       features: ['Multiple logo variations exploring form, motion, and color', 'Abstract human silhouettes symbolizing movement and athleticism', 'Scalable design adaptable for digital, print, and event branding'],
       outcomes: ['Established a strong and recognizable brand identity for the marathon', 'Improved visual consistency across marketing and promotional materials', 'Created a flexible logo system suitable for long-term brand use'],
-      demo: '#',
-      code: '#'
+      // demo: '#',
+      // code: '#'
     },
     sales: {
       title: 'Social Media Campaign',
@@ -153,19 +166,11 @@
         'Higher reach across platforms',
         'Consistent brand identity'
       ],
-      demo: '#',
-      code: '#'
+      // demo: '#',
+      // code: '#'
     },
-    health: {
-      title: 'Healthcare Analytics Platform',
-      cat: 'Healthcare Analytics',
-      desc: 'Clinical KPI & outcomes reporting.',
-      tags: ['Python', 'R', 'Power BI'],
-      features: ['Cohorts', 'HIPAA-safe processing', 'Clinical dashboards'],
-      outcomes: ['+8% throughput', 'Lower readmissions', 'Centralized quality metrics'],
-      demo: '#',
-      code: '#'
-    },
+    
+
     ecom: {
       title: 'E-commerce Analytics Suite',
       cat: 'Digital Analytics',
@@ -173,8 +178,8 @@
       tags: ['GA', 'Python', 'Tableau'],
       features: ['Attribution modeling', 'Funnel drop-off', 'Marketing ROI dashboards'],
       outcomes: ['+12% conversion', '-18% CPA', 'Unified growth analytics layer'],
-      demo: '#',
-      code: '#'
+      // demo: '#',
+      // code: '#'
     }
   };
 
