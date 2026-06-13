@@ -127,6 +127,20 @@
     },
 
 
+
+    ecom: {
+      title: 'SkyFly – Flight Booking Mobile App | UI/UX Design',
+      cat: 'UI/UX Design · Mobile App · User Flow',
+      desc: 'End-to-end flight booking experience with intuitive search, seat selection, and streamlined booking workflows.',
+      tags: ['Figma', 'Photoshop', 'Mobile UI/UX'],
+      features: ['Flight search & filtering', 'Interactive seat selection', 'Passenger details management', 'Secure payment workflow', 'Booking confirmation', 'Reusable design system'],
+      outcomes: ['Improved booking flow usability', 'Simplified multi-step interactions', 'Consistent mobile user experience', 'Scalable UI component system'],
+      // demo: '#',
+      // code: '#'
+    },
+
+
+
     home_rent: {
       title: 'NFT Design',
       cat: ' · NFT Design · Digital Illustration · Character Design',
@@ -141,6 +155,8 @@
       // demo: '#',
       // code: '#'
     },
+
+
     retail: {
       title: 'Logo & Brand Identity Design',
       cat: '· Logo Design · Brand Identity · Visual Identity',
@@ -151,6 +167,8 @@
       // demo: '#',
       // code: '#'
     },
+
+
     sales: {
       title: 'Social Media Campaign',
       cat: 'Social Media Design',
@@ -171,16 +189,16 @@
     },
     
 
-    ecom: {
-      title: 'E-commerce Analytics Suite',
-      cat: 'Digital Analytics',
-      desc: 'User behavior tracking and conversion optimization.',
-      tags: ['GA', 'Python', 'Tableau'],
-      features: ['Attribution modeling', 'Funnel drop-off', 'Marketing ROI dashboards'],
-      outcomes: ['+12% conversion', '-18% CPA', 'Unified growth analytics layer'],
-      // demo: '#',
-      // code: '#'
-    }
+    // ecom: {
+    //   title: 'E-commerce Analytics Suite',
+    //   cat: 'Digital Analytics',
+    //   desc: 'User behavior tracking and conversion optimization.',
+    //   tags: ['GA', 'Python', 'Tableau'],
+    //   features: ['Attribution modeling', 'Funnel drop-off', 'Marketing ROI dashboards'],
+    //   outcomes: ['+12% conversion', '-18% CPA', 'Unified growth analytics layer'],
+    //   // demo: '#',
+    //   // code: '#'
+    // }
   };
 
   /* ----- Filters ----- */
