@@ -1937,3 +1937,140 @@ body.nav-open .nav-backdrop{
 
     .p-body{ padding:18px; }
 }
+
+
+/* ==================================================
+   MOBILE FINAL FIXES
+   Header / Hero / Page Title / Horizontal Overflow
+================================================== */
+
+@media (max-width: 768px){
+
+    /* Prevent any element from creating horizontal scrolling */
+    html,
+    body{
+        width:100%;
+        max-width:100%;
+        overflow-x:hidden;
+    }
+
+    /* Keep header completely inside the phone */
+    .site-header{
+        width:100%;
+        left:0;
+        right:0;
+    }
+
+    .header-inner{
+        width:100%;
+        max-width:100%;
+        min-width:0;
+        padding-left:16px;
+        padding-right:16px;
+    }
+
+    .brand{
+        min-width:0;
+    }
+
+    .hamburger{
+        flex:0 0 45px;
+        width:45px;
+        min-width:45px;
+        margin-left:auto;
+    }
+
+    /* Make sure hamburger lines remain visible */
+    .hamburger span{
+        width:26px;
+        height:3px;
+    }
+
+    /* Prevent hero columns from becoming wider than phone */
+    .hero,
+    .hero-left,
+    .hero-right{
+        width:100%;
+        max-width:100%;
+        min-width:0;
+    }
+
+    /* Keep profile photo centered */
+    .hero-right{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+    }
+
+    .photo-wrap{
+        width:220px;
+        max-width:80vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .photo-wrap img{
+        width:100%;
+        max-width:100%;
+        height:auto;
+    }
+
+    /* Keep hero text inside viewport */
+    .hero-title,
+    .hero-sub{
+        width:100%;
+        max-width:100%;
+        overflow-wrap:break-word;
+        word-break:normal;
+    }
+
+    /* Page headings must start BELOW fixed header */
+    .about,
+    .skills-hero,
+    .projects-hero,
+    .exp-hero,
+    .contact-hero{
+        padding-top:120px;
+    }
+
+    /* Don't let large headings touch the screen edges */
+    .section-title{
+        width:100%;
+        max-width:100%;
+        overflow-wrap:break-word;
+    }
+}
+
+/* Extra protection for small phones */
+@media (max-width:480px){
+
+    .header-inner{
+        padding-left:12px;
+        padding-right:12px;
+    }
+
+    .hero{
+        width:92%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .photo-wrap{
+        width:220px;
+        max-width:78vw;
+    }
+
+    .about,
+    .skills-hero,
+    .projects-hero,
+    .exp-hero,
+    .contact-hero{
+        padding-top:115px;
+    }
+
+    .section-title.large{
+        font-size:clamp(1.8rem,8vw,2.5rem);
+        line-height:1.2;
+    }
+}
