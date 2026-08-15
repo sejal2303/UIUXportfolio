@@ -5,12 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Projects • Portfolio</title>
   <meta name="theme-color" content="#0b1220" />
+  <meta name="description" content="Browse UI/UX design, web/mobile app, NFT art, branding, and social media projects by Sejal Sudrik." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Projects — Sejal Sudrik" />
+  <meta property="og:description" content="Browse UI/UX design, web/mobile app, NFT art, branding, and social media projects by Sejal Sudrik." />
+  <meta property="og:image" content="assets/img/cover-img.png" />
+  <meta name="twitter:card" content="summary_large_image" />
   <script src="https://kit.fontawesome.com/afda3a646f.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css" />
   <script defer src="assets/js/main.js"></script>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
   <div class="container header-inner">
@@ -30,20 +37,18 @@
   </div>
 </header>
 
-<main>
+<main id="main">
   <!-- Hero + filters -->
   <section class="container projects-hero">
     <h1 class="section-title large">My <span class="name-grad">Projects</span></h1>
     <p class="section-sub">Explore my portfolio of UI/UX Designing projects that have driven business value.</p>
 
-    <div id="projFilters" class="filter-chips">
+    <div id="projFilters" class="filter-chips" role="tablist" aria-label="Filter projects by category">
       <button class="chip-pill active" data-cat="all">All</button>
-      <button class="chip-pill" data-cat="ops", data-cat="health", data-cat="digital">UI/UX Designs - Landing Page</button>
+      <button class="chip-pill" data-cat="uiux">UI/UX Designs - Landing Page</button>
       <button class="chip-pill" data-cat="bi">Social Media Campaigns</button>
       <button class="chip-pill" data-cat="ml">NFT Crypto Art</button>
       <button class="chip-pill" data-cat="fin">Logo & Brand Design</button>
-      <!-- <button class="chip-pill" data-cat="health">Healthcare Analytics</button> -->
-      <!-- <button class="chip-pill" data-cat="digital">Digital Analytics</button> -->
     </div>
   </section>
 
@@ -52,7 +57,7 @@
     <div id="projectsGrid" class="project-grid">
 
       <!-- 1 -->
-       <article class="project-card" data-id="supply" data-cat="ops"
+       <article class="project-card" data-id="supply" data-cat="uiux"
         data-modal-images="
           assets/img/UIUX/BMobileView.png,
           assets/img/UIUX/B1.png,
@@ -77,7 +82,7 @@
 
 
     <!-- 2 -->
-      <article class="project-card" data-id="health" data-cat="health"
+      <article class="project-card" data-id="health" data-cat="uiux"
         data-modal-images="
           assets/img/UIUX/MovieTicket.png">
 
@@ -95,11 +100,20 @@
 
 
       <!-- 3 -->
-      <article class="project-card" data-id="ecom" data-cat="digital"
-        data-modal-images="
-          assets/img/UIUX/MovieTicket.png">
+      <article class="project-card" data-id="ecom" data-cat="uiux"
+        data-modal-images=
+        "assets/img/FlightBookingApp/HighFedility/11.png,
+        assets/img/FlightBookingApp/HighFedility/12.png,
+        assets/img/FlightBookingApp/HighFedility/13.png,
+        assets/img/FlightBookingApp/HighFedility/4.png,
+        assets/img/FlightBookingApp/HighFedility/5.png,
+        assets/img/FlightBookingApp/HighFedility/6.png,
+        assets/img/FlightBookingApp/HighFedility/7.png,
+        assets/img/FlightBookingApp/HighFedility/8.png,
+        assets/img/FlightBookingApp/HighFedility/9.png,
+        assets/img/FlightBookingApp/HighFedility/10.png">
         <div class="p-thumb">
-          <img src="assets/img/Landing-page-main.webp" alt="Mobile Application">
+          <img src="assets/img/FlightBookingApp/plane2.jpg" alt="Mobile Application">
         </div>
         <div class="p-body">
           <h3>SkyFly – Flight Booking Mobile App | UI/UX Design</h3>
